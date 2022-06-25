@@ -1,12 +1,14 @@
 import sys
 from ui import ui_design
-from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget
+from PyQt6.QtWidgets import QApplication, QMainWindow
+from PyQt6 import QtGui
 
 
 class MainWindow(QMainWindow):
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
         self.setWindowTitle("Gcode 2 Zaxe")
+        self.setWindowIcon(QtGui.QIcon("icons/icon.png"))
         self.setStyleSheet("background-color: rgba(210, 210, 210, 0.8);")
 
         self.startMainMenu()
