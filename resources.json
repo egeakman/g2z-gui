@@ -5,7 +5,8 @@
         "Zaxe X2": "X2",
         "Zaxe Z1": "Z1",
         "Zaxe Z1+": "Z1PLUS",
-        "Zaxe Z3": "Z3"
+        "Zaxe Z3": "Z3",
+        "Zaxe Z3+": "Z3PLUS"
     },
     "materials": {
         "PLA": "zaxe_pla",
